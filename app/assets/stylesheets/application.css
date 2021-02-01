@@ -93,6 +93,7 @@
    background-color: #fafafa;
    height: calc(100vh - 100px - 90px);
    padding: 46px 40px 0 40px;
+   overflow: scroll;
  }
  .chat-content {
 
