@@ -11,17 +11,7 @@
 
 
 <div class="chat-message">
-  <div class="chat-content">
-    <div class="chat-name">Tom</div>
-    <div class="chat-time">2020/3/31(Wed) 12:43:30</div>
-  </div>
-  <div class="chat-text">おはよう</div>
-
-  <div class="chat-content">
-    <div class="chat-name">Tom</div>
-    <div class="chat-time">2020/3/31(Wed) 12:47:30</div>
-  </div>
-  <div class="chat-text">こんばんは</div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 

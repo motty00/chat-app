@@ -95,8 +95,8 @@
    padding: 46px 40px 0 40px;
  }
  .chat-content {
-   display: flex;
- }
+
+}
 .chat-name {
   font-size: 16px;
   color: #434a54;
@@ -107,10 +107,17 @@
   color: #999999;
   margin-top: 10px;
 }
+
 .chat-text {
   font-size: 14px;
   color: #434a54;
   margin-bottom: 40px;
+}
+
+.up-text {
+  display: flex;
+}
+.row-text {
 }
 
 
