@@ -120,20 +120,20 @@
    padding: 20px 40px;
    display: flex;
  }
- .send-content {
+ .form-input {
    background-color: white;
    display: flex;
    width: 100%;
  }
 
- .send-message {
+ .form-message {
    height: 50px;
    padding-left: 10px;
    width: 100%;
    border: none;
  }
 
- .send {
+ .form-submit {
    font-size: 16px;
    color: white;
    background-color: #38aef0;
